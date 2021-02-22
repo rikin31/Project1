@@ -57,6 +57,7 @@
                 -moz-column-gap:      0px;
                 column-count:         5;
                 column-gap:           0px;  
+                
             }
 
             #content img {
@@ -175,6 +176,7 @@
             #content .imgContent {
                 position: relative;
                 vertical-align: bottom;
+                
             }
 
             #content a span {
@@ -196,18 +198,20 @@
                 display: block
             }
 
-            @media (max-width: 1200px) {
+            @media (min-width: 1200px) {
                 #content {
                     -moz-column-count:    4;
                     -webkit-column-count: 4;
                     column-count:         4;
+                    display: flex;
                 }
             }
-            @media (max-width: 1000px) {
+            @media (min-width: 1000px) {
                 #content {
                     -moz-column-count:    3;
                     -webkit-column-count: 3;
                     column-count:         3;
+                    display: flex;
                 }
                 .modal{
                     left: 0;
@@ -420,6 +424,8 @@
                             <img src="images/despicablemeideas/754_drawing.jpg" alt="Magritte Painting in a Painting">
                         </div>
                         
+                       
+                        
                         
                     <!-- Next/previous controls -->
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -429,11 +435,46 @@
                     <div class="caption-container">
                         <p id="caption"></p>
                     </div>
-                    <div>
-                        <p></p>
-                    </div>
+                    
+                    
                 </div>
+                
+             
+
             </section>
+            <div class="row m-4">
+                <div class="col-md-8">
+                  <div class="column-content col-md-12">
+                    <p>Bowhead Whale Story:</p>
+                    <ol>
+                        <li>The serum gets injected into the Bowhead Whale.</li>
+                        <li>The serum causes the Bowhead Whale to form crystal shaped teeth.</li>
+                        <li>The Bowhead Whale with the serum injected opens his mouth craving for something to eat.</li>
+                        <li>The serum was designed to only digest one thing... TRASH! The trash bin above opens its lid to let all of the trash out to feed to the Bowhead Whale.</li>
+                        <li>After the Bowhead Whale digests its meal, it makes a BURP!</li>
+                        <li>After the Bowhead Whale made its burp, the side effects of the serum cause it to have a seizure. The serum also makes the whale become very hyperactive and ravenous.</li>
+                        <li>The whale begins to have an episode and begins to move its body around very dangerously.</li>
+                        <li>The whale is exhausted from having eaten trash to having seizures. It is fast asleep. The whole cycle of it eating trash to burping to having episodes will repeat every thirty minutes until it gets cured by an antidote. The antidote is then created by Dr. Nefario.</li>
+                    </ol>                 
+                </div>
+              </div>
+    
+                <div class="col-md-4">
+                  <div class="column-content col-md-12">
+                    <p>Chess Pieces Concept:</p>
+                    <ul>
+                        <li>Rook</li>
+                        <li>Bishop</li>
+                        <li>Pawn</li>
+                        <li>Knight</li>
+                        <li>Queen</li>
+                        <li>King</li>
+                    </ul>
+                  </div>
+            </div>
+
+            
+           
             <!-- #content end -->
 
             <footer id="footer" class="dark">
